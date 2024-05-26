@@ -11,6 +11,10 @@ body{
     margin: 1rem auto;
     border-radius: 25px;
 }
+.iconBeat{
+    color: rgb(130, 99, 57);
+    /* color: rgb(132, 121, 83); */
+}
 .gFonts{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
