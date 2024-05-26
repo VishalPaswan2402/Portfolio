@@ -4,7 +4,11 @@
     border: 0;
 }
 body{
-    background-color: rgb(8, 8, 8);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.marginBox{
+    width: 98%; 
+    margin: 1rem auto;
 }
 .gFonts{
     font-family: "Josefin Sans", sans-serif;
@@ -189,4 +193,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+.contactCard{
+    border: 2px solid rgb(173, 152, 152);
 }
