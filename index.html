@@ -41,6 +41,11 @@
         </div>
       </nav>
 
+      <div class="modeContainer">
+        <div class="changeMode"></div>
+        <button type="button" class="btn btn-dark changeButton" id="chageWebMode"><i class="fa-solid fa-moon modeIcon"></i>  <span id="modeText">Dark</span></button>
+      </div>
+
       <div class="card text-center marginBox">
         <div class="card-body">
           <h5 class="card-title head" id="scrollspyHeading1">Hey! I am Vishal Paswan</h5>
@@ -56,16 +61,16 @@
         </div>
       </div>
 
-      <div class="card text-center marginBox">
+      <div class="card text-center marginBox" id="scrollspyAboutMe">
         <div class="card-body">
-          <h5 class="card-title head" id="scrollspyAboutMe"><i class="fa-regular fa-address-card fa-beat-fade iconBeat"></i> About Me <i class="fa-regular fa-address-card fa-beat-fade iconBeat"></i></h5>
+          <h5 class="card-title head" ><i class="fa-regular fa-address-card fa-beat-fade iconBeat"></i> About Me <i class="fa-regular fa-address-card fa-beat-fade iconBeat"></i></h5>
           <p class="card-text web">Hi, I'm Vishal Paswan, a passionate web developer.I love turning ideas into interactive and visually appealing digital experiences. Web development is not just my passion it's my creative outlet.When I'm not coding, you can find me listening to music and exploring new things. I believe that a well-rounded perspective enhances creativity and problem-solving. Looking ahead, I am excited to start my journey in development field, and implement my all skills to design a productive things.</p>
         </div>
       </div>
 
-      <div class="card text-center marginBox">
+      <div class="card text-center marginBox" id="scrollspyEducation">
         <div class="card-body">
-          <h5 class="card-title head" id="scrollspyEducation"><i class="fa-solid fa-graduation-cap fa-beat-fade iconBeat"></i> Education <i class="fa-solid fa-graduation-cap fa-beat-fade iconBeat"></i></h5>
+          <h5 class="card-title head" ><i class="fa-solid fa-graduation-cap fa-beat-fade iconBeat"></i> Education <i class="fa-solid fa-graduation-cap fa-beat-fade iconBeat"></i></h5>
           <div class="row eduSection">
             <div class="col-sm-4 mb-3">
               <div class="card eduCard">
@@ -101,13 +106,13 @@
         </div>
       </div>
 
-      <div class="card text-center marginBox">
+      <div class="card text-center marginBox" id="scrollspySkills">
         <div class="card-body">
-          <h5 class="card-title head" id="scrollspySkills"><i class="fa-solid fa-laptop-code fa-beat-fade iconBeat"></i> Skills <i class="fa-solid fa-laptop-code fa-beat-fade iconBeat"></i></h5>
+          <h5 class="card-title head" ><i class="fa-solid fa-laptop-code fa-beat-fade iconBeat"></i> Skills <i class="fa-solid fa-laptop-code fa-beat-fade iconBeat"></i></h5>
           <div class="skillBar">
             <p class="card-text web progressText">MERN Stack &nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 80%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 80%">
                 <p class="card-text web">80 % </p>
               </div>
             </div>
@@ -115,7 +120,7 @@
           <div class="skillBar">
             <p class="card-text web progressText">JAVA (DSA) &nbsp;&nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 75%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 75%">
                 <p class="card-text web">75 % </p>
               </div>
             </div>
@@ -123,7 +128,7 @@
           <div class="skillBar">
             <p class="card-text web progressText">Java Script &nbsp;&nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 70%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 70%">
                 <p class="card-text web">70 % </p>
               </div>
             </div>
@@ -131,7 +136,7 @@
           <div class="skillBar">
             <p class="card-text web progressText">HTML/CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 75%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 75%">
                 <p class="card-text web">75 % </p>
               </div>
             </div>
@@ -139,7 +144,7 @@
           <div class="skillBar">
             <p class="card-text web progressText">Bootstrap &nbsp;&nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 80%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 80%">
                 <p class="card-text web">80 % </p>
               </div>
             </div>
@@ -147,7 +152,7 @@
           <div class="skillBar" style="display: none;">
             <p class="card-text web progressText">Figma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             <div class="progress progressBarWidth" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar innderProgress" style="width: 75%">
+              <div class="progress-bar innderProgress progress-bar-striped progress-bar-animated" style="width: 75%">
                 <p class="card-text web">75 % </p>
               </div>
             </div>
@@ -155,9 +160,9 @@
         </div>
       </div>
 
-      <div class="card text-center marginBox">
+      <div class="card text-center marginBox" id="scrollspyMyProject">
         <div class="card-body">
-          <h5 class="card-title head mb-4" id="scrollspyMyProject"><i class="fa-solid fa-diagram-project fa-beat-fade iconBeat"></i> Projects <i class="fa-solid fa-diagram-project fa-beat-fade iconBeat"></i></h5>
+          <h5 class="card-title head mb-4" ><i class="fa-solid fa-diagram-project fa-beat-fade iconBeat"></i> Projects <i class="fa-solid fa-diagram-project fa-beat-fade iconBeat"></i></h5>
           <div class="myProjects">
             <div class="card mb-4 projectBox" style="width: 19rem; display: none;">
               <img src="attend.jpg" class="card-img-top projectImage">
@@ -219,9 +224,9 @@
         </div>
       </div>
 
-      <div class="card text-center marginBox">
+      <div class="card text-center marginBox" id="scrollspyContact">
         <div class="card-body">
-          <h5 class="card-title head" id="scrollspyContact"><i class="fa-solid fa-address-book fa-beat-fade iconBeat"></i> Contact <i class="fa-solid fa-address-book fa-beat-fade iconBeat"></i></h5>
+          <h5 class="card-title head" ><i class="fa-solid fa-address-book fa-beat-fade iconBeat"></i> Contact <i class="fa-solid fa-address-book fa-beat-fade iconBeat"></i></h5>
           <div class="contactBox">
             <div class="card contactCard mt-3 mb-3" style="width: 19rem;">
               <div class="card-body">
@@ -242,5 +247,6 @@
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
