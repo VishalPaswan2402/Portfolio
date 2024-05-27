@@ -166,8 +166,8 @@ body{
 .projectImage{
     height: 12.1rem;
     opacity: 0.5;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
 }
 .projectBox {
     border: 2px solid rgb(173, 152, 152);
