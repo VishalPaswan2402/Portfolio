@@ -81,6 +81,7 @@ body{
     font-style: normal;
     font-size: 2rem;
     color: rgb(0, 248, 236);
+    transition: 2s;
 }
 .web1{
     font-family: "Federant", serif;
