@@ -48,3 +48,17 @@ changeMode.addEventListener("click",function(){
         }, 1000);
     }
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    let index = 0;
+    const cards = document.querySelectorAll('.randomCard1');
+    
+    function showNextCard() {
+        cards.forEach(card => card.style.display = 'none');
+        cards[index].style.display = 'block';
+        index = (index + 1) % cards.length;
+    }
+    
+    showNextCard();
+    setInterval(showNextCard, 300);
+});
