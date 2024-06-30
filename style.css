@@ -342,3 +342,32 @@ body{
         rgb(35, 35, 35) 100%
     );
 }
+.contactMe{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.footImg{
+    height: 17rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.displayBy{
+    display: none;
+}
+@media(min-width:800px) and (max-width:1100px){
+    #contHide1{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .hideAll{
+        display: none;
+    }
+    .displayBy{
+        display: inline;
+    }
+    
+}
