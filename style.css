@@ -4,7 +4,6 @@
     border: 0;
 }
 body{
-    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
     background: linear-gradient(
         15deg,
         rgb(253, 95, 95) 0%,
@@ -273,9 +272,22 @@ body{
 }
 .projectName{
     font-family: "Strait", sans-serif;
-    /* font-family: "Poly", serif; */
     font-weight: 400;
     font-style: normal;
+}
+.contactUs{
+    background-color: rgb(38, 47, 62);
+    margin-top: 1.5rem;
+    border: 2px solid rgb(64, 81, 86);
+}
+.ideaFont{
+    font-family: "Teko", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.m1{
+    padding-top: 1rem;
 }
 .contactBox{
     display: flex;
@@ -286,4 +298,47 @@ body{
 .contactCard{
     border: 2px solid rgb(173, 152, 152);
     border-radius: 20px;
+}
+.projectIdea{
+    box-shadow: none;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(38, 47, 62);
+}
+.proButton{
+    height: 3rem;
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 2px solid rgb(11, 191, 245);
+}
+.rock{
+    height: 2.2rem;
+    width: 2.2rem;
+    background-image: url(image/a12.webp);
+    background-size: contain;
+}
+.imgRock{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.footer{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-left: none;
+    background: linear-gradient(
+        90deg,
+        rgb(35, 35, 35) 0%,
+        rgb(65, 65, 65) 50%,
+        rgb(35, 35, 35) 100%
+    );
 }

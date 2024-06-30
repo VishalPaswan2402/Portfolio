@@ -4,6 +4,7 @@ let changeMode=document.querySelector('#chageWebMode');
 let heads=document.querySelectorAll('.head');
 let progressBarWidths=document.querySelectorAll('.progressBarWidth');
 let modeText = document.getElementById('modeText');
+let foot=document.querySelector(".footer");
 changeMode.addEventListener("click",function(){
     let isDarkMode = document.body.classList.toggle('dark-mode');
     if (isDarkMode) {
@@ -25,6 +26,7 @@ changeMode.addEventListener("click",function(){
             progressBarWidths.forEach(function(progressBarWidth) {
                 progressBarWidth.style.backgroundColor = "rgb(194, 194, 194)";
             });
+            foot.style.background = 'linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(220, 220, 220)50%, rgb(255, 255, 255) 100%)';
         }, 1000);
     }else {
         var colorBox = document.querySelector('.changeMode');
