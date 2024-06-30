@@ -19,6 +19,7 @@ changeMode.addEventListener("click",function(){
             cards.forEach(function(card) {
                 card.style.backgroundColor = "white";
                 card.style.color = "black";
+                card.style.border="none";
             });
             heads.forEach(function(head) {
                 head.style.color = "blue";
@@ -40,6 +41,7 @@ changeMode.addEventListener("click",function(){
             cards.forEach(function(card) {
                 card.style.backgroundColor = "";
                 card.style.color = "";
+                card.style.border="";
             });
             heads.forEach(function(head) {
                 head.style.color = "";
