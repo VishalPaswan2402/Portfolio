@@ -276,7 +276,7 @@ body{
     font-style: normal;
 }
 .contactUs{
-    background-color: rgb(38, 47, 62);
+    background-color: rgb(33, 36, 43);
     margin-top: 1.5rem;
     border: 2px solid rgb(64, 81, 86);
 }
@@ -306,7 +306,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    background-color: rgb(38, 47, 62);
+    background-color: rgb(33, 36, 43);
 }
 .proButton{
     height: 3rem;
