@@ -49,6 +49,7 @@ changeMode.addEventListener("click",function(){
             progressBarWidths.forEach(function(progressBarWidth) {
                 progressBarWidth.style.backgroundColor = "";
             });
+            foot.style.background = "";
         }, 1000);
     }
 })
