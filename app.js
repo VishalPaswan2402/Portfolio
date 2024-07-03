@@ -65,5 +65,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     showNextCard();
-    setInterval(showNextCard, 300);
+    setInterval(showNextCard, 900);
 });
