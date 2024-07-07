@@ -80,13 +80,13 @@ body{
 }
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(243, 109, 241, 0.5);
+        box-shadow: 0 0 0 0 rgba(255, 153, 11, 0.906);
     }
     50% {
-        box-shadow: 0 0 0 10px rgba(197, 67, 188, 0.11);
+        box-shadow: 0 0 0 15px rgba(197, 67, 188, 0.11);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(177, 42, 159, 0.358); 
+        box-shadow: 0 0 0 0 rgba(230, 15, 51, 0.358); 
     }
 }
 .roundCard{
