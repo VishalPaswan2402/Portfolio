@@ -67,3 +67,33 @@ document.addEventListener("DOMContentLoaded", function() {
     showNextCard();
     setInterval(showNextCard, 1490);
 });
+
+let myProject=document.querySelector('.letRock');
+let eduCard=document.querySelectorAll('.eduCard');
+let randomColor=()=>{
+    let color='#';
+    const pick='0123456789ABCDEF';
+    for(let i=0;i<6;i++){
+        let val=Math.floor(Math.random()*16);
+        color+=pick[val];
+    }
+    eduCard.forEach((edu)=>{
+        edu.style.boxShadow=`0.5px 0.5px 5px ${color}`;
+    })
+    myProject.style.boxShadow=`1px 1px 10px ${color}`;
+}
+
+let curr=setInterval(()=>{
+    randomColor();
+},1000)
+
+
+let projectBox=document.querySelectorAll('.projectBox');
+projectBox.forEach((pro)=>{
+    pro.addEventListener('mouseover',()=>{
+        pro.style.boxShadow='none';
+    })
+    pro.addEventListener('mouseout',()=>{
+        pro.style.boxShadow='';
+    })
+})

@@ -162,7 +162,7 @@ body{
     background-color: rgb(35, 35, 35);
     color: white;
     box-shadow: 0.5px 0.5px 10px rgb(37, 36, 36);
-    transition: 2s;
+    transition: 1s;
 }
 .head{
     font-family: "Rye", serif;
@@ -226,7 +226,7 @@ body{
 .eduCard{
     background-color: rgb(35, 35, 35);
     color: white;
-    border: 2px solid rgb(173, 152, 152);
+    /* border: 2px solid rgb(173, 152, 152); */
     border-radius: 20px;
 }
 .skillBar{
@@ -262,6 +262,7 @@ body{
 .projectBox {
     border: 2px solid rgb(173, 152, 152);
     border-radius: 20px;
+    box-shadow: 1px 1px 10px gray;
 }
 .projectBox:hover {
     background-color: rgb(82, 82, 114);
