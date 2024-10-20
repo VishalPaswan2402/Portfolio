@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(showNextCard, 1490);
 });
 
+let linearColorChange=document.querySelector('.linearColorChange');
 let myProject=document.querySelector('.letRock');
 let eduCard=document.querySelectorAll('.eduCard');
 let randomColor=()=>{
@@ -81,6 +82,7 @@ let randomColor=()=>{
         edu.style.boxShadow=`0.5px 0.5px 5px ${color}`;
     })
     myProject.style.boxShadow=`1px 1px 10px ${color}`;
+    linearColorChange.style.color=color;
 }
 
 let curr=setInterval(()=>{

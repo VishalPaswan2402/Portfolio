@@ -282,31 +282,9 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-@keyframes linearColorChange {
-    0% {
-      opacity: 0;
-      color: rgb(255, 255, 255);
-    }
-    25% {
-        opacity: 1;
-        color: rgb(251, 97, 110);
-      }
-    50% {
-      opacity: 1;
-      color: rgb(220, 131, 247);
-    }
-    75% {
-        opacity: 1;
-        color: rgb(33, 187, 253);
-      }
-    100% {
-        opacity: 1;
-        color: rgb(244, 240, 126);
-      }
-  }
-  .linearColorChange {
-    animation: linearColorChange 5s linear infinite;
-  }
+.linearColorChange {
+    transition: 1s;
+}
 .contactUs{
     background-color: rgb(33, 36, 43);
     margin-top: 1.5rem;
